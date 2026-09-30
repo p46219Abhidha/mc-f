@@ -68,4 +68,4 @@ if st.button("Get Prediction", type="primary"):
         st.info(f"Probability of being a high-cost patient: {proba:.2%}")
         
         if proba > 0.6:
-            st.warning("Consider assigning a case manager to this patient for preventive care."
+            st.warning("Consider assigning a case manager to this patient for preventive care.")
